@@ -1,0 +1,21 @@
+print("caseStudy: GugudanType2")
+print("m3_2_nestedloop_002_GugudanType2")
+print("1. i, j 변수 선언과 초기화")
+print('   i, j = 0, 0 ')
+i, j = 0, 0
+print()
+print("2. 반복 실행하는 반복문 ")
+print('    for i in range(1, 10, 1) :       ')
+print('        for j in range(2, 10, 1) :   ')
+print('            print("   %d x %d = %2d" % (j, i, i*j), end="\t")  ')
+print('        print("")    ')
+print()
+print("3. 결과값->")
+for i in range(1, 10, 1) :
+    for j in range(2, 10, 1) :
+        print(" %d x %d = %2d" % (j, i, i*j), end="\t")
+    print("")    
+print()
+print('4. 프로그램 종료')
+print('   print("Program End")')
+print("   Program End")
