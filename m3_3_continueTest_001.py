@@ -1,0 +1,22 @@
+print("caseStudy: 반복문과 continue")
+print("m3_3_continueTest_002.py")
+print()
+print("1. continue_letter, letter 변수 선언과 초기화")
+print('   continue_letter = input("   python중 건너뛸 문자를 입력하시오: ") ')
+continue_letter = input("   python중 건너뛸 문자를 입력하시오: ")
+print()
+print("2. for 반복문, 조건문, continue")
+print('   for letter in "python":  ')
+print('       if letter == continue_letter:  ')
+print('           continue  ')
+print('       print(letter)  ')
+print()
+print("3. 결과값->")
+for letter in "python":
+    if letter == continue_letter:
+        continue
+    print(letter)
+print()
+print('4. 프로그램 종료')
+print('   print("Program End")')
+print("   Program End")
