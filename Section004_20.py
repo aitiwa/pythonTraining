@@ -1,6 +1,7 @@
 print("Section004 알고리즘-수열4의 합계")
 print("Ex.) 1+3+6+10+15+21+28+...의 합계")
-print("m3_2_forloopTest_004_20")
+print("Section004004_20.py")
+print("m3_2_forloopTest")
 print()
 print("1. i, j, sum 변수 선언과 초기화: ")
 print('   i = 0     ')
